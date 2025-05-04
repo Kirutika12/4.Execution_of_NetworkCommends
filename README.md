@@ -27,10 +27,10 @@ This commands includes
 <BR>
 ## Program
 ```
-from scapy.all import* 
-target = ["www.google.com"] 
-result, unans = traceroute(target,maxttl=32) 
-print(result,unans)
+ from scapy.all import* 
+ target = ["www.google.com"] 
+ result, unans = traceroute(target,maxttl=32) 
+ print(result,unans)
 ```
 
 ## Output
